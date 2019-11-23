@@ -4,6 +4,8 @@ This is my first application using vue. This app also uses HTML, CSS, Bulma and 
 #### Static
 <img src="static.jpg" alt="initial commit" />
 
+#### Reactive (*Dynamically Data Driven*)
+<img src="reactive.jpg" alt="initial commit" />
 
 
 
