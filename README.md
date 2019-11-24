@@ -15,7 +15,10 @@ Public contains all the css/stylesheets as well as any and all of the images
 <img src="static.jpg" alt="initial commit" />
 
 #### Reactive (*Dynamically Data Driven*)
-<img src="reactive.jpg" alt="initial commit" />
+<img src="reactive.jpg" alt="output after pulling from js file" />
+
+#### Sorted by Computed properties
+<img src="sorted.jpg" alt="sorted" />
 
 
 
