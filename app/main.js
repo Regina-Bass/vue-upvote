@@ -1,6 +1,6 @@
 const submissionComponent = {
 	template: 
-	`<div style= "display: flex; width: 100%">
+	` <div style= "display: flex; width: 100%">
 		<figure class="media-left">
 			<img class="image is-64x64" v-bind:src="submission.submissionImage">
 		</figure>
@@ -29,7 +29,16 @@ const submissionComponent = {
             <strong class="has-text-info">{{ submission.votes }}</strong>
           </span>
         </div>
-    </div>`		
+    </div>`,
+    props: ['submission', 'submissions'],
+	methods: {
+		upvote(submissionId) {
+			const submission = this.submissions.find(
+				submission => submission.id === submissionId
+			);
+			submission.votes++;
+		}
+	}	
 };
 
 new Vue({
@@ -44,15 +53,7 @@ new Vue({
 			});
 		}
 	},
-	methods: {
-		upvote(submissionId) {
-			const submission = this.submissions.find(
-				submission => submission.id === submissionId
-			);
-			submission.votes++;
-		}
-	},
 	components: {
-		'submission-component' : submissionComponent
+		'submission-component': submissionComponent
 	}
 });
