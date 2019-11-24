@@ -20,6 +20,9 @@ Public contains all the css/stylesheets as well as any and all of the images
 #### Sorted by Computed properties
 <img src="sorted.jpg" alt="sorted" />
 
+#### Final Output with stock images
+<img src="rendition.jpg" alt="rendition" />
+
 
 
 
