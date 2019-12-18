@@ -17,7 +17,7 @@ Public contains all the css/stylesheets as well as any and all of the images
 #### Reactive (*Dynamically Data Driven*)
 <img src="reactive.jpg" alt="output after pulling from js file" />
 
-#### Sorted by Computed properties
+#### Sorted by Computed properties (points)
 <img src="sorted.jpg" alt="sorted" />
 
 #### Final Output with stock images
